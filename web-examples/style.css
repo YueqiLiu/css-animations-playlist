@@ -64,8 +64,9 @@ button{
 
 #pop-up{
   top: -400px;
-  animation: drop 0.5s ease forwards, 
-             swing 2s 3s ease forwards;
+  transform-origin: 10px 10px;
+  animation: drop 0.5s ease forwards,
+             swing 2s 3s ease forwards
 }
 
 @keyframes drop{
